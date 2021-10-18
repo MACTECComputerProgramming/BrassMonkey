@@ -3,36 +3,31 @@ using UnityEngine;
 public class BikeLean : MonoBehaviour
 {
 
+    public Quaternion targetRotation;
+    public float smooth;
+    public GameObject myObject;
+    public float angle;
 
-
-    void BikeLean()
+    private void Update()
     {
-        bool isPlayerTurning = false;
-
-
-        if (Input.GetKey("a"))
+        if (Input.GetAxis("Horizontal") >= 0.1 )
         {
-
-            isPlayerTurning = true;
-            targetRotation = Quaternion.AngleAxis(15f, transform.forward) * transform.rotation;
+            targetRotation = Quaternion.AngleAxis(-100f, transform.forward) * transform.rotation;
             transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, smooth * Time.deltaTime);
             Debug.Log("Turning Left");
-
         }
-        else if (Input.GetKey("d"))
+        else if (Input.GetAxis("Horizontal") <= -0.1 && transform.rotation.z <= 60)
         {
-
-            isPlayerTurning = true;
-            targetRotation = Quaternion.AngleAxis(-15f, transform.forward) * transform.rotation;
+            targetRotation = Quaternion.AngleAxis(100f, transform.forward) * transform.rotation;
             transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, smooth * Time.deltaTime);
             Debug.Log("Turning Right");
         }
         else // level bike if not turning
         {
-
-            targetRotation = Quaternion.AngleAxis(0f, transform.forward) * transform.rotation;
+            angle = myObject.transform.rotation.eulerAngles.z;
+            targetRotation = Quaternion.AngleAxis(-angle, transform.forward) * transform.rotation;
             transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, smooth * Time.deltaTime);
-
         }
+
     }
 }

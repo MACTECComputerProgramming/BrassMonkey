@@ -10,16 +10,7 @@ public class BikeLean : MonoBehaviour
    
     private void Update()
     {
-        if (myObject.transform.rotation.eulerAngles.x >= -20 || myObject.transform.rotation.eulerAngles.x <= 20)
-        {
-            Debug.Log("Good");
-
-        }
-        else if (myObject.transform.rotation.eulerAngles.x <= -20 || myObject.transform.rotation.eulerAngles.x >= 20)
-        {
-            Debug.Log("Bad");
-        }
-
+       
         //Rotation to Right
         if (Input.GetAxis("Horizontal") >= 0.1)
         {

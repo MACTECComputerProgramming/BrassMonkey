@@ -1,10 +1,21 @@
 fileFormatVersion: 2
 guid: b495362db4a7579409ea283c4032c118
-timeCreated: 1494003162
-licenseType: Store
 MonoImporter:
+  externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - normalArray: {instanceID: 0}
+  - maskArray: {instanceID: 0}
+  - surfaceArray: {instanceID: 0}
+  - surfaceNormalArray: {instanceID: 0}
+  - blindsArray: {instanceID: 0}
+  - streetsArray: {instanceID: 0}
+  - entArray: {instanceID: 0}
+  - Dirt_IlluminationArray: {instanceID: 0}
+  - shopSignsArray: {instanceID: 0}
+  - cityMaterial: {instanceID: 0}
+  - streetsMaterial: {instanceID: 0}
+  - volumeArraySource: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

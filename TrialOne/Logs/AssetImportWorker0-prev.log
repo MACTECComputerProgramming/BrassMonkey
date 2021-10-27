@@ -1,0 +1,370 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.18f1 (25bdc3efbc2d) revision 2473411'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 14213 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/MaconRM180/Documents/Daytona/BrassMonkey/TrialOne
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59410
+Successfully changed project path to: C:/Users/MaconRM180/Documents/Daytona/BrassMonkey/TrialOne
+C:/Users/MaconRM180/Documents/Daytona/BrassMonkey/TrialOne
+Using Asset Import Pipeline V2.
+Unknown platform 3 in GetRenderList
+Unknown platform 3 in GetRenderList
+Refreshing native plugins compatible for Editor in 45.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.18f1 (25bdc3efbc2d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/MaconRM180/Documents/Daytona/BrassMonkey/TrialOne/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) RX Vega 10 Graphics (ID=0x15d8)
+    Vendor:   ATI
+    VRAM:     7106 MB
+    Driver:   27.20.11012.12001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005173 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 50.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.998 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1998ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (608ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (233ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (262ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007212 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.885 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1885ms)
+		BeginReloadAssembly (245ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1542ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (473ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (712ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (579ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Unknown platform 3 in GetRenderList
+Unknown platform 3 in GetRenderList
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1519 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.2 MB.
+System memory in use after: 103.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1995.
+Total: 4.573400 ms (FindLiveObjects: 0.186100 ms CreateObjectMapping: 0.045700 ms MarkObjects: 4.309200 ms  DeleteObjects: 0.030700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/CScape/Models/Materials/Materials/LampIllumination.mat
+  artifactKey: Guid(f1c35833baee12b41aa9690696128d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/Materials/LampIllumination.mat using Guid(f1c35833baee12b41aa9690696128d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac500673a41a790be5d50403870b0a7') in 0.225714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/CScape/Models/Materials/No Name.mat
+  artifactKey: Guid(ed023fb1ed23916469a9a0bd58d43101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/No Name.mat using Guid(ed023fb1ed23916469a9a0bd58d43101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023a2aa478deef705366fe72e187aec1') in 0.027373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/CScape/Editor/Materials/lenseDirt.mat
+  artifactKey: Guid(665aa56540d5a8d468e3423682315491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Materials/lenseDirt.mat using Guid(665aa56540d5a8d468e3423682315491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e0c179c701014f7c687bf4b95d71da') in 0.049845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/CScape/Editor/Resources/TextureArrays/New Material.mat
+  artifactKey: Guid(88ac9ea4ec26f104b866ced3c4735ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Resources/TextureArrays/New Material.mat using Guid(88ac9ea4ec26f104b866ced3c4735ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d2f61b010ee9f70790ccc6badf87e6') in 0.051298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/CScape/Models/Materials/Materials/Greeble 2.mat
+  artifactKey: Guid(95af27944c105a646bede9cb1b455406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/Materials/Greeble 2.mat using Guid(95af27944c105a646bede9cb1b455406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f90d94a1e0415d66b4e418d452e9e3') in 0.063678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/CScape/GreebleModel/Materials/Line001_albedo.mat
+  artifactKey: Guid(af80fda89946e94428a74fa39080d0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/GreebleModel/Materials/Line001_albedo.mat using Guid(af80fda89946e94428a74fa39080d0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32a57f21667e3d25e0f37f95360b3e1') in 0.056030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Leaves_3.mat
+  artifactKey: Guid(a6b21b8c372827345a11bae2fb736e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD0/Leaves_3.mat using Guid(a6b21b8c372827345a11bae2fb736e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad069a911f2a0eda897b216978efa68') in 0.031834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/CScape/BuildingMaterials/MegaCity1.mat
+  artifactKey: Guid(3da26787e2ddb6345887cb30075db27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/BuildingMaterials/MegaCity1.mat using Guid(3da26787e2ddb6345887cb30075db27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a4dcd9b4c625de212fa34989f9f60f') in 0.953409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/CScape/Editor/Materials/GrateDistribution.mat
+  artifactKey: Guid(b3c5950c9ea24034c8617f50b0e6f4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Materials/GrateDistribution.mat using Guid(b3c5950c9ea24034c8617f50b0e6f4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8443f332b72bddafdbe9320835c52718') in 0.030364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/CScape/Models/Materials/Materials/Lamp_specular.mat
+  artifactKey: Guid(5d0cbe5fdab25bb42a2c478c9242a6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/Materials/Lamp_specular.mat using Guid(5d0cbe5fdab25bb42a2c478c9242a6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3cefc94171e97b3557a724aefc04ca6') in 0.043680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD1/Leaves_1.mat
+  artifactKey: Guid(a940b48d553d9c74f9ca0a3b4cf74336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD1/Leaves_1.mat using Guid(a940b48d553d9c74f9ca0a3b4cf74336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d67a7ba5cdd9e4dc960b0b7b70f865') in 0.036144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2/Leaves_1.mat
+  artifactKey: Guid(f568ca8b20ae095418f3e2a3b341d8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD2/Leaves_1.mat using Guid(f568ca8b20ae095418f3e2a3b341d8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f444159b8021b8c72af4f7526933b0ea') in 0.031264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/CScape/ExtraProps/BusStop/MatePlastic.mat
+  artifactKey: Guid(5350239b7e770d8498f29c5c9b0af5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/ExtraProps/BusStop/MatePlastic.mat using Guid(5350239b7e770d8498f29c5c9b0af5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28627e92f3822232fa0085fc074779ae') in 0.054917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/CScape/ExtraProps/BusStop/Materials/NewYear.mat
+  artifactKey: Guid(b7c5c87c6affdfd498be73ff917a7dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/ExtraProps/BusStop/Materials/NewYear.mat using Guid(b7c5c87c6affdfd498be73ff917a7dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebef13355bfab5fbdd8516cb8528b44a') in 0.046996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/CScape/GreebleModel/New Material.mat
+  artifactKey: Guid(25621b9c49e61e5468b4e0c58c07621e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/GreebleModel/New Material.mat using Guid(25621b9c49e61e5468b4e0c58c07621e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7907d79de61d745a46b8093f257765f') in 0.020781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/CScape/Models/Materials/Materials/Lamp_albedo.mat
+  artifactKey: Guid(351dd942f02052f48b53b1f749a4f7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/Materials/Lamp_albedo.mat using Guid(351dd942f02052f48b53b1f749a4f7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbb42717bb9fde6a6236aaf2ee2d4d3') in 0.057838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/CScape/Models/Materials/Materials/Lamp_normal.mat
+  artifactKey: Guid(192356936ce882c4abccbf6eeccdde61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/Materials/Lamp_normal.mat using Guid(192356936ce882c4abccbf6eeccdde61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f326af819c6cf8919830e5e9eaa2bd0') in 0.038746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/CScape/Materials/MegaCityStreet.mat
+  artifactKey: Guid(35e03f7905f29b44492b02afd75b2e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Materials/MegaCityStreet.mat using Guid(35e03f7905f29b44492b02afd75b2e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f7dd1522d76bcaaf38ef65457bbbf2') in 0.113828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Leaves_3.mat
+  artifactKey: Guid(9cc6d6e9e3fe9154890a6f9caa77c955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop Materials/LOD1/Leaves_3.mat using Guid(9cc6d6e9e3fe9154890a6f9caa77c955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f640e51af92303cae374d390ec54881') in 0.023134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD0/Leaves_1.mat
+  artifactKey: Guid(6c3b3265bf0f7e547a1ada8555f850a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile Materials/LOD0/Leaves_1.mat using Guid(6c3b3265bf0f7e547a1ada8555f850a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5f01ce8634285214df599bc42ff2a6') in 0.046967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Leaves_3.mat
+  artifactKey: Guid(e6751882f7503bd4f9c6c3902e8b6188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD1/Leaves_3.mat using Guid(e6751882f7503bd4f9c6c3902e8b6188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810d625d4344f0b5acc51558a933642f') in 0.050352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/CScape/CScapeToolset/W/Lighten.mat
+  artifactKey: Guid(c3b35b2b8f6ad3f4e99f4ec156e19c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/W/Lighten.mat using Guid(c3b35b2b8f6ad3f4e99f4ec156e19c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d57bc71ffd38e5955f2e4fbd481e84') in 0.053394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/CScape/CScapeToolset/W/Lighten 1.mat
+  artifactKey: Guid(86b3dc6fe304b194f9012ae3bb531d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/W/Lighten 1.mat using Guid(86b3dc6fe304b194f9012ae3bb531d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1434bb4fe4857f4878013046bc88dd92') in 0.027358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/CScape/Models/Materials/Materials/Greeble 3.mat
+  artifactKey: Guid(a074220e4c9c1c144938f1e9f739c973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/Materials/Greeble 3.mat using Guid(a074220e4c9c1c144938f1e9f739c973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c670db0df091c6d5067b8dfd887fc62c') in 0.041233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/CScape/Editor/Textures/StreetTextures/Materials/Grate2.mat
+  artifactKey: Guid(7d16645dd876b6148be1f2decbb65fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/StreetTextures/Materials/Grate2.mat using Guid(7d16645dd876b6148be1f2decbb65fca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809143427f16c2a2d04557d0920d000a') in 0.031181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/CScape/Models/Materials/Materials/Greeble.mat
+  artifactKey: Guid(71a819dfc509b50428b3c319688e5166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/Materials/Greeble.mat using Guid(71a819dfc509b50428b3c319688e5166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84f626749461ebef52637b63e69d581') in 0.035767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/CScape/Models/Materials/Materials/Greeble 5.mat
+  artifactKey: Guid(5589d5ff9d3ee0d48acdba7ca9f85178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/Materials/Greeble 5.mat using Guid(5589d5ff9d3ee0d48acdba7ca9f85178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a6ec9ff92be8b0f6f1f244c77a3c98') in 0.025533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/CScape/Models/Materials/LampDiffuseMap.mat
+  artifactKey: Guid(bd2eeed5b48211245bc578023c3a71bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/LampDiffuseMap.mat using Guid(bd2eeed5b48211245bc578023c3a71bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d46ff233f96fb1f62ff0d1eb1e8511') in 0.027307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Leaves_3.mat
+  artifactKey: Guid(2bcb00d145ec17e4cad096cedfd84138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD0/Leaves_3.mat using Guid(2bcb00d145ec17e4cad096cedfd84138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a02b83c789b356f7b8290cfa8d69c8') in 0.023899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/CScape/Editor/Materials/Noise.mat
+  artifactKey: Guid(1704ba6b7f289be4e8409f5978a6a168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Materials/Noise.mat using Guid(1704ba6b7f289be4e8409f5978a6a168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc61defb0a4e875ffccf0ffcee784e9') in 0.054514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/CScape/Editor/Textures/ParkTextures/Grass/Materials/Grass_Specular_Rough_Displ_AO.mat
+  artifactKey: Guid(70fcdb7f0ee7c804cbe7651fbd5ea0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/ParkTextures/Grass/Materials/Grass_Specular_Rough_Displ_AO.mat using Guid(70fcdb7f0ee7c804cbe7651fbd5ea0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fd0b93bb1bcfc5b8566bdc759fe7c4') in 0.059075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/CScape/Editor/Materials/Noise2.mat
+  artifactKey: Guid(dbb2778f790e1ea4ead830023294ea76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Materials/Noise2.mat using Guid(dbb2778f790e1ea4ead830023294ea76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8532a92569ec17befe160224969fc233') in 0.043656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/CScape/Models/Materials/Materials/Lamp_albedo 1.mat
+  artifactKey: Guid(0023412686b47b040bd9218e701b3d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/Materials/Lamp_albedo 1.mat using Guid(0023412686b47b040bd9218e701b3d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9a13cacf9f45a9e436d69cc72c189f') in 0.048022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/CScape/Models/Materials/Materials/Greeble 1.mat
+  artifactKey: Guid(90707c2e9533439438c7de126e29ecd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/Materials/Greeble 1.mat using Guid(90707c2e9533439438c7de126e29ecd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d15688d44429ef71e96b38d1b27d85') in 0.094452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/CScape/NordLake Lite/NordLake_NordLakeDemo.mat
+  artifactKey: Guid(24b9f82353c6d194e9e127dbe510dc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/NordLake Lite/NordLake_NordLakeDemo.mat using Guid(24b9f82353c6d194e9e127dbe510dc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2436056d90fba03622a7aa5c46309898') in 0.072758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/CScape/Models/Materials/Materials/Greeble 4.mat
+  artifactKey: Guid(ef41b2aef23b7a1419c1d42826f6a882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/Materials/Greeble 4.mat using Guid(ef41b2aef23b7a1419c1d42826f6a882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3bc3513e906799b644005e2930d2a93') in 0.050273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Leaves_3.mat
+  artifactKey: Guid(c487fc8e98a2a42488a6c0a36ccaec27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop Materials/LOD2/Leaves_3.mat using Guid(c487fc8e98a2a42488a6c0a36ccaec27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7f78dcaf67242d9cd10e91e469e6e8') in 0.025192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Materials/Light.mat
+  artifactKey: Guid(b73916d937ddb5b428608e0d5072412b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Materials/Light.mat using Guid(b73916d937ddb5b428608e0d5072412b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5f15ab16b26d8e8fff9b4ddfc9cb35') in 0.044323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/CScape/GreebleModel/Materials/No Name.mat
+  artifactKey: Guid(64a1d6c83a7a51f4392123a49f41f7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/GreebleModel/Materials/No Name.mat using Guid(64a1d6c83a7a51f4392123a49f41f7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44b2e69d9e50c0ded4db8c9d996fd0fa') in 0.036283 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

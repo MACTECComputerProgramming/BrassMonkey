@@ -1,0 +1,1324 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.18f1 (25bdc3efbc2d) revision 2473411'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 14213 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/MaconRM180/Documents/Daytona/BrassMonkey/TrialOne
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59548
+Successfully changed project path to: C:/Users/MaconRM180/Documents/Daytona/BrassMonkey/TrialOne
+C:/Users/MaconRM180/Documents/Daytona/BrassMonkey/TrialOne
+Using Asset Import Pipeline V2.
+Unknown platform 3 in GetRenderList
+Unknown platform 3 in GetRenderList
+Refreshing native plugins compatible for Editor in 105.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.18f1 (25bdc3efbc2d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/MaconRM180/Documents/Daytona/BrassMonkey/TrialOne/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) RX Vega 10 Graphics (ID=0x15d8)
+    Vendor:   ATI
+    VRAM:     7106 MB
+    Driver:   27.20.11012.12001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005534 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 94.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.677 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3677ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1091ms)
+			LoadAssemblies (184ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (382ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (502ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (289ms)
+				ProcessInitializeOnLoadMethodAttributes (96ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015883 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.977 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2979ms)
+		BeginReloadAssembly (462ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (2386ms)
+			LoadAssemblies (255ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (785ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (1018ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (819ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (28ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Unknown platform 3 in GetRenderList
+Unknown platform 3 in GetRenderList
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 2.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1519 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 103.3 MB.
+System memory in use after: 103.4 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1995.
+Total: 10.757900 ms (FindLiveObjects: 0.425100 ms CreateObjectMapping: 0.212700 ms MarkObjects: 10.057000 ms  DeleteObjects: 0.060300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/CScape/Editor/Resources/TextureArrays/CScapeToolset/NormaltextureArray.asset
+  artifactKey: Guid(9f1f6844d95968a49bec5d3d63630afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Resources/TextureArrays/CScapeToolset/NormaltextureArray.asset using Guid(9f1f6844d95968a49bec5d3d63630afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98f4fdd4a63e160d381aeaf6af6639f') in 1.241191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/CScape/Editor/Resources/TextureArrays/CScapeToolset/shopSignsArray.asset
+  artifactKey: Guid(4e0938b5ecfcdd5428b6144578944ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Resources/TextureArrays/CScapeToolset/shopSignsArray.asset using Guid(4e0938b5ecfcdd5428b6144578944ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32dd9e6418da36ac1ac6d3bccdc59cd') in 0.096462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/CScape/Editor/Textures/graffiti.png
+  artifactKey: Guid(28ca7a79df19d54458a0fe0a2d01bf6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/graffiti.png using Guid(28ca7a79df19d54458a0fe0a2d01bf6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7c9cbe076409fd6ff365d0b52e64b6') in 0.148040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/intArray.asset
+  artifactKey: Guid(98ab4598ca16f6640aeb2dfedcbc5c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/intArray.asset using Guid(98ab4598ca16f6640aeb2dfedcbc5c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbee8f8bf5a73ac50582af94cb50a74') in 0.109430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/CScape/Editor/Textures/StreetDecalsArray.asset
+  artifactKey: Guid(20472dcfc8118714496d83b43c030300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/StreetDecalsArray.asset using Guid(20472dcfc8118714496d83b43c030300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66953c03d8fd734215420b1499c37cf') in 0.208398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/CScape/Editor/Textures/Noise3.psd
+  artifactKey: Guid(be53a91e4e185d9448d300ead53b5f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/Noise3.psd using Guid(be53a91e4e185d9448d300ead53b5f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bdf529c136d2e0b05cd80ca48e825d') in 0.027920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/CScape/Editor/Resources/TextureArrays/CScapeToolset/streetsArray.asset
+  artifactKey: Guid(fff978441526f4b46ae9df5f25404ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Resources/TextureArrays/CScapeToolset/streetsArray.asset using Guid(fff978441526f4b46ae9df5f25404ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99bc317759a706f7f5ca6fdbd376b39') in 0.076654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/CScape/Editor/Resources/TextureArrays/CScapeToolset/SurfaceArray.asset
+  artifactKey: Guid(55240eb16b3a21b4b8b4177c9b8ac2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Resources/TextureArrays/CScapeToolset/SurfaceArray.asset using Guid(55240eb16b3a21b4b8b4177c9b8ac2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c54eab14df3f223c8438c9e3613b60') in 0.545542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/SurfaceArray.asset
+  artifactKey: Guid(9f592950e45ccfc4299bad4189860533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/SurfaceArray.asset using Guid(9f592950e45ccfc4299bad4189860533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c431ca436d8e7e2fd04f3f4d0cea774d') in 0.553750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/CScape/Editor/Resources/TextureArrays/CScapeToolset/decallsArray.asset
+  artifactKey: Guid(c55fd95dd46c1b04ca31de43aa9871d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Resources/TextureArrays/CScapeToolset/decallsArray.asset using Guid(c55fd95dd46c1b04ca31de43aa9871d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf7ade9a674429d18474490e6919895') in 0.047235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/CScape/Editor/Resources/TextureArrays/CScapeToolset/Dirt_IlluminationArray.asset
+  artifactKey: Guid(b7dcf8e645dd0fc42b50c6dffc7b03c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Resources/TextureArrays/CScapeToolset/Dirt_IlluminationArray.asset using Guid(b7dcf8e645dd0fc42b50c6dffc7b03c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60fce6ee2ffcaae2e7667621c5f928b0') in 0.046976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/CScape/Editor/Resources/TextureArrays/Rooftops/Rooftops_normal.asset
+  artifactKey: Guid(73d7c6981f8b19440868d4a95dde136c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Resources/TextureArrays/Rooftops/Rooftops_normal.asset using Guid(73d7c6981f8b19440868d4a95dde136c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408f703860879dcc8709f1814cdfbf85') in 0.306121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/CScape/Editor/Resources/TextureArrays/Rooftops/Rooftops_maps.asset
+  artifactKey: Guid(3f4056c888cbb704c9bf47c4efffac7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Resources/TextureArrays/Rooftops/Rooftops_maps.asset using Guid(3f4056c888cbb704c9bf47c4efffac7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0640153b7aaba9ff5dfa80f0173e98b2') in 0.629545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/CScape/Editor/Resources/TextureArrays/CScapeToolset/blindsArray.asset
+  artifactKey: Guid(5154545dae1963f4c8c8c80537e1f2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Resources/TextureArrays/CScapeToolset/blindsArray.asset using Guid(5154545dae1963f4c8c8c80537e1f2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e674c20b275be1e8b7bb0236094bcefe') in 0.068138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/CScape/Editor/Resources/TextureArrays/StreetDecalsArray.asset
+  artifactKey: Guid(134756922af6d1b42a3f724a76288bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Resources/TextureArrays/StreetDecalsArray.asset using Guid(134756922af6d1b42a3f724a76288bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9aa34f6d187ead33cd6d2ebaab9744d') in 0.191001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/CScape/Editor/Textures/StreetTextures/Grate2.png
+  artifactKey: Guid(eabccfc5a86fd3d479a89972671507c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/StreetTextures/Grate2.png using Guid(eabccfc5a86fd3d479a89972671507c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afcf62c8bd919ba680782742d6ee786b') in 0.021381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/CScape/Editor/Textures/ParkTextures/Grass/Grass_Specular_Rough_Displ_AO.png
+  artifactKey: Guid(85c7302b886d61d46a3dd335a3a5ed94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/ParkTextures/Grass/Grass_Specular_Rough_Displ_AO.png using Guid(85c7302b886d61d46a3dd335a3a5ed94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c5a4ee0ec34c04f8768513c89a88eb') in 0.051065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/CScape/Editor/Textures/grate 1.png
+  artifactKey: Guid(ff6cb15a58c04d443ab54b3e1fae6cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/grate 1.png using Guid(ff6cb15a58c04d443ab54b3e1fae6cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90d7f8b8a3133a7e4e5432801ccd033') in 0.032364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/CScape/Editor/Textures/grate.png
+  artifactKey: Guid(230db1c933d400a45ae6f454858ef2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/grate.png using Guid(230db1c933d400a45ae6f454858ef2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acdce8c3dae0b2a8a1453da0f0cfefc') in 0.032146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/CScape/Editor/Textures/ParkTextures/Grass/Grass_Albedo.png
+  artifactKey: Guid(1d38b4c7072fa1b4e91e3ba755d32b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/ParkTextures/Grass/Grass_Albedo.png using Guid(1d38b4c7072fa1b4e91e3ba755d32b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ead4c6a489bfd5b4e7a2bfd68a3b40') in 0.068139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/CScape/Editor/Textures/ParkTextures/Grass/Grass_Normal.png
+  artifactKey: Guid(407964dbb4552fa41bd5edd8d919d1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/ParkTextures/Grass/Grass_Normal.png using Guid(407964dbb4552fa41bd5edd8d919d1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c000b4ceb13cce1538135fee117f30') in 0.031206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/door1.png
+  artifactKey: Guid(cced67ce365a5394c98fdde3f891a2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/door1.png using Guid(cced67ce365a5394c98fdde3f891a2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c77c82c48d93fa0ecf59807d3fb054') in 0.061686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/decodividers_sg.ttf
+  artifactKey: Guid(c86780a7b5469ee4686478c815b5f189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/decodividers_sg.ttf using Guid(c86780a7b5469ee4686478c815b5f189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ceca63c705f7a9329b35578682af5b') in 0.086329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/CScape/Editor/Textures/GrateDistribution.png
+  artifactKey: Guid(ba5087a48b3d70c4098ef50deb41a792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/GrateDistribution.png using Guid(ba5087a48b3d70c4098ef50deb41a792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5695846cbddd54d4501468dd93bcb382') in 0.021972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/DoorArc.png
+  artifactKey: Guid(5bdb2f0b530f20940b4d4f2191b32292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/DoorArc.png using Guid(5bdb2f0b530f20940b4d4f2191b32292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156ac4cd9b024bb3b1713494bdd1e539') in 0.063982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/CScape/Editor/Resources/TextureArrays/CScapeToolset/intArray.asset
+  artifactKey: Guid(20b10e3e62ea4824b9b596ed06338e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Resources/TextureArrays/CScapeToolset/intArray.asset using Guid(20b10e3e62ea4824b9b596ed06338e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffe32b86da79c1dedb49bdef96e01f3') in 0.155776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.644625 seconds.
+  path: Assets/CScape/CScapeToolset/Prototypes/Greebles/Greeble.png
+  artifactKey: Guid(5ce602f48a58c1445b804c156ecf6dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Prototypes/Greebles/Greeble.png using Guid(5ce602f48a58c1445b804c156ecf6dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb01c582684b1941e01a3be55bce49fc') in 1.269725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000539 seconds.
+  path: Assets/CScape/Models/Materials/Lamp_specular.tga
+  artifactKey: Guid(8f5e2835c776aeb4785250a0de448f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/Lamp_specular.tga using Guid(8f5e2835c776aeb4785250a0de448f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6209ae839982bf6be2a712678605466') in 0.065028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/CScape/Models/Materials/Lamp_albedo.tga
+  artifactKey: Guid(48036792b6c216449a96b55b89bd9286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/Lamp_albedo.tga using Guid(48036792b6c216449a96b55b89bd9286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ea2a86fed6fcde9ee94aca9ae0d859') in 0.037842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/CScape/Editor/Textures/lenseDirt.jpg
+  artifactKey: Guid(ac498712259fe0f40b5fe4a826d60d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/lenseDirt.jpg using Guid(ac498712259fe0f40b5fe4a826d60d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549840c62113faf46c4dbdfbe9c264c2') in 0.028773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/CScape/Models/Materials/LampIllumination.png
+  artifactKey: Guid(d036c8d72ba3c24448637745ab558fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/LampIllumination.png using Guid(d036c8d72ba3c24448637745ab558fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c5ed78a14b1f3331a64fb83fd4be46') in 0.025725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/CScape/Models/Materials/Greeble 1.png
+  artifactKey: Guid(88f67acdf2d15424ea624f111733cac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/Greeble 1.png using Guid(88f67acdf2d15424ea624f111733cac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8618e3fc4c6ca473d5d4488b5ec2e7f') in 0.039001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/CScape/GreebleModel/Line001_ao.png
+  artifactKey: Guid(cb076afa3bb72fb4c86db976e6d4019f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/GreebleModel/Line001_ao.png using Guid(cb076afa3bb72fb4c86db976e6d4019f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4e00a721947018f2b4904f6ad6d821') in 0.031561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/CScape/GreebleModel/Line001_albedo.png
+  artifactKey: Guid(4410bf49d5569aa49b82a1b72a1895e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/GreebleModel/Line001_albedo.png using Guid(4410bf49d5569aa49b82a1b72a1895e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c79e41ae87a6fc118211c1047263db2') in 0.025602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/CScape/Models/Materials/Greeble.png
+  artifactKey: Guid(fb79bd5813be4de48978c07a34e12289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/Greeble.png using Guid(fb79bd5813be4de48978c07a34e12289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec63a3e43d8f7ee638c525a2c9d14472') in 0.096336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/CScape/Models/Materials/Lamp_normal.tga
+  artifactKey: Guid(0a44b5e47ce0aa243a11f79f31744971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/Lamp_normal.tga using Guid(0a44b5e47ce0aa243a11f79f31744971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e111bb86b857cb89c66ad3da3efd168c') in 0.029674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.144354 seconds.
+  path: Assets/CScape/GreebleModel/Line001_normal.png
+  artifactKey: Guid(6de5a4ae641cc3441b19ed48b2c75acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/GreebleModel/Line001_normal.png using Guid(6de5a4ae641cc3441b19ed48b2c75acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c9f06da5325d8210169278b282873f') in 0.043788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000588 seconds.
+  path: Assets/CScape/GreebleModel/Line001_specular.png
+  artifactKey: Guid(6b0cb83bd66c2864c98c4a0ba0d8ace0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/GreebleModel/Line001_specular.png using Guid(6b0cb83bd66c2864c98c4a0ba0d8ace0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75eae73264091734da2ef04ebd20e275') in 0.049849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.385611 seconds.
+  path: Assets/CScape/ExtraProps/BusStop/NewYear.psd
+  artifactKey: Guid(db3e3f032a5d18a41866548bb5b3c704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/ExtraProps/BusStop/NewYear.psd using Guid(db3e3f032a5d18a41866548bb5b3c704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028254fc1275bfd702dbf3ad3832df29') in 0.036208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/CScape/ExtraProps/BusStop/NewYear.png
+  artifactKey: Guid(51abb241617068c4cba8de315dc09969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/ExtraProps/BusStop/NewYear.png using Guid(51abb241617068c4cba8de315dc09969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161d73209e97611e18fdcee3707ab15f') in 0.047179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.377088 seconds.
+  path: Assets/CScape/Editor/Textures/Noise.psd
+  artifactKey: Guid(6f9a0e55e3ffc6044944be5e3035e195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/Noise.psd using Guid(6f9a0e55e3ffc6044944be5e3035e195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c203573e40f26e07f1481c4c30f8d0') in 0.031416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/CScape/NordLake Lite/Noise.png
+  artifactKey: Guid(92002d8ac05f4ac4d8a3d238058fdf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/NordLake Lite/Noise.png using Guid(92002d8ac05f4ac4d8a3d238058fdf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf8f435bf489d16348244cbed946147') in 0.035516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000563 seconds.
+  path: Assets/CScape/Editor/Textures/Noise1.png
+  artifactKey: Guid(9733f0d7aec8848f08cae3c95b44d3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/Noise1.png using Guid(9733f0d7aec8848f08cae3c95b44d3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe05ecf1fff3b03a9e19e2c00946ae2') in 0.033555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/CScape/Editor/Textures/Noise.png
+  artifactKey: Guid(3ce46f687cf9deb40aa0d90c50165748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/Noise.png using Guid(3ce46f687cf9deb40aa0d90c50165748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd39524a503339b950f46d0b257a52f37') in 0.035077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.320544 seconds.
+  path: Assets/CScape/Editor/Textures/Noise2.png
+  artifactKey: Guid(94f0e096fe4d8e14eaf231eb69202d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/Noise2.png using Guid(94f0e096fe4d8e14eaf231eb69202d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4243a6acf9583643fdf57f9e41820c5e') in 0.045395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/CScape/Editor/Textures/Noise2.psd
+  artifactKey: Guid(499c13baaf0a16b4ea170bf3c3cbf0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/Noise2.psd using Guid(499c13baaf0a16b4ea170bf3c3cbf0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1cc95005fdef13c29033fcb6c68aade') in 0.025150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/CScape/Editor/Textures/Noise_02.png
+  artifactKey: Guid(77f5feff8fd410d4e85cb24c60731d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/Noise_02.png using Guid(77f5feff8fd410d4e85cb24c60731d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ad9388fa0a5a6f6419e9e1936fefe5') in 0.044690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.346437 seconds.
+  path: Assets/CScape/Editor/Textures/NoiseNM.tga
+  artifactKey: Guid(3f1c78d9af9562445b6fc8bd8983adec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/NoiseNM.tga using Guid(3f1c78d9af9562445b6fc8bd8983adec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2e7c9dcdfd1313c6a2b8aa841f270e') in 0.041851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/CScape/Materials/NoiseTexture 5.asset
+  artifactKey: Guid(21fb2a5a12031a640b3ddfcaa74893f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Materials/NoiseTexture 5.asset using Guid(21fb2a5a12031a640b3ddfcaa74893f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035bd44d08e2701994aa75a66ea02ff6') in 0.128807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.206278 seconds.
+  path: Assets/CScape/GreebleModel/Object002_ao.png
+  artifactKey: Guid(fcf76ed5bf2ae95479d5250663d697d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/GreebleModel/Object002_ao.png using Guid(fcf76ed5bf2ae95479d5250663d697d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aded66f1c7a82058adbb8df2dfcf9f20') in 0.032067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009464 seconds.
+  path: Assets/CScape/GreebleModel/Object002_diffuse.png
+  artifactKey: Guid(1e5e44169e31700469a0e40a81db1aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/GreebleModel/Object002_diffuse.png using Guid(1e5e44169e31700469a0e40a81db1aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f7d9d7b42ab237b59e703d8567e058') in 0.034280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/CScape/GreebleModel/Object002_normal.png
+  artifactKey: Guid(9ee06cd5358c3ee4984ad791b705daab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/GreebleModel/Object002_normal.png using Guid(9ee06cd5358c3ee4984ad791b705daab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7051483a7de6d5f3c8f1702fd69a4421') in 0.036176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.286801 seconds.
+  path: Assets/CScape/GreebleModel/Object002_specular.png
+  artifactKey: Guid(b08a8dc0e374eff429c5af54cb0ee474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/GreebleModel/Object002_specular.png using Guid(b08a8dc0e374eff429c5af54cb0ee474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff36c991b614340e16dc2e5994d1fbf') in 0.040105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/Ornaments.psd
+  artifactKey: Guid(bd6995c03b14b3943a8847ed2d42a314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/Ornaments.psd using Guid(bd6995c03b14b3943a8847ed2d42a314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9532ed2ab4e3ebee56dc8ce2a01b1f84') in 0.070295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas.tga
+  artifactKey: Guid(03a71764f1184704c9a74acb7490450e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas.tga using Guid(03a71764f1184704c9a74acb7490450e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3352f931815c11e329f21d04bff8e59b') in 0.035898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/Ornament.png
+  artifactKey: Guid(fcce9278664caef4c906983e27089310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/Ornament.png using Guid(fcce9278664caef4c906983e27089310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7be73416d3190bd319db4965526961') in 0.040574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.212289 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards.tga
+  artifactKey: Guid(a9c35d1eec67849419bd87d162ba90a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards.tga using Guid(a9c35d1eec67849419bd87d162ba90a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d659ead743561026e50795b2f7d4b5') in 0.033768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Normal.tga
+  artifactKey: Guid(20c65bc5a7d28f54c9ca69569d77706d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Normal.tga using Guid(20c65bc5a7d28f54c9ca69569d77706d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfd62969b8fafe8416df98b8ac88ac4') in 0.042474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000605 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards_Normal.tga
+  artifactKey: Guid(bf8162ab40cfad34cac743bdc2939f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards_Normal.tga using Guid(bf8162ab40cfad34cac743bdc2939f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eef6cfd05cb2189c691e501578768d0') in 0.035100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark.tga
+  artifactKey: Guid(dd49a2ed5943a014e8d933ff5381281a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark.tga using Guid(dd49a2ed5943a014e8d933ff5381281a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f76b0dd73a3407148dafdcffbdec93') in 0.044477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.444657 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Detail.tga
+  artifactKey: Guid(4d6c994b9ad45b847bc67ec5f857fc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Detail.tga using Guid(4d6c994b9ad45b847bc67ec5f857fc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfa68f2182648219f34ba89f9732e25') in 0.052577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/CScape/Editor/Textures/puddles.png
+  artifactKey: Guid(75e89b415b4f91948a2aec5467488fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/puddles.png using Guid(75e89b415b4f91948a2aec5467488fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10ba9ee4fbf1868179e5eaa066524e8') in 0.053038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000520 seconds.
+  path: Assets/CScape/Editor/Textures/rainDrops.png
+  artifactKey: Guid(30af032d986c62c459ee11fda0d603b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/rainDrops.png using Guid(30af032d986c62c459ee11fda0d603b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76843005db68131beb28f42aa9a354c5') in 0.039816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/CScape/Editor/Textures/Re_Lighting_Renderer.renderTexture
+  artifactKey: Guid(92dbb2a403ac83f45a6f7973909742fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/Re_Lighting_Renderer.renderTexture using Guid(92dbb2a403ac83f45a6f7973909742fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13bd468a7dbb94eb7660d80da1015af') in 0.040787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/BrokenVector/LowPolyRoadPack/Textures/Road Colorscheme.png
+  artifactKey: Guid(ee1b8ae61c20d994aa45384f1afaaaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyRoadPack/Textures/Road Colorscheme.png using Guid(ee1b8ae61c20d994aa45384f1afaaaed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1b395a548920a445af033bfa0c4204') in 0.034228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Normal.tga
+  artifactKey: Guid(f15241bc5a839ea46bf857431081d715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Normal.tga using Guid(f15241bc5a839ea46bf857431081d715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d839e30156d26d226806008890478de') in 0.034565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.065768 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/Sculpture.png
+  artifactKey: Guid(0761d3c16389e0141b60d67062f4b9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/Sculpture.png using Guid(0761d3c16389e0141b60d67062f4b9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72567ac7b8b2c5d0343f2741981ffb03') in 0.043884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/CScape/Editor/Textures/sf_noise_clouds_02.png
+  artifactKey: Guid(9ec916cf5c4507b49b9d971e3b9f962e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/sf_noise_clouds_02.png using Guid(9ec916cf5c4507b49b9d971e3b9f962e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1565d85075f39fe4a0485e6d13f23071') in 0.049093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.400726 seconds.
+  path: Assets/CScape/Editor/Textures/sf_noise_grain_01.png
+  artifactKey: Guid(e958c6041cfe445e987c73751e8d4082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/sf_noise_grain_01.png using Guid(e958c6041cfe445e987c73751e8d4082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fd4387fcdcd04507ed9b7200350717') in 0.040474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.076217 seconds.
+  path: Assets/CScape/Editor/Textures/StreetDecalls.png
+  artifactKey: Guid(faf644995c61f7843b90c6844cbb7290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/StreetDecalls.png using Guid(faf644995c61f7843b90c6844cbb7290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774ab454877192fdb85d096086120f8a') in 0.033146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.325791 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/stripedFaccade.psd
+  artifactKey: Guid(36ec70f679d84dc4f8b92ffc77df26f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/stripedFaccade.psd using Guid(36ec70f679d84dc4f8b92ffc77df26f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2bc944287508200ea5cbaec024880f') in 0.055352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/stripedFaccade2.psd
+  artifactKey: Guid(91bf7801c389e5e4aac9563237c42ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/stripedFaccade2.psd using Guid(91bf7801c389e5e4aac9563237c42ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3969baaa444cbf5f1046c04626c8de2') in 0.060011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000520 seconds.
+  path: Assets/CScape/Editor/Textures/stroke.png
+  artifactKey: Guid(1e0464840a26a70418c8ddfab95bb149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/stroke.png using Guid(1e0464840a26a70418c8ddfab95bb149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4afc4dc9e5581db95a84791c162d1508') in 0.029690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.541399 seconds.
+  path: Assets/CScape/ExtraProps/ShopDetails/ShopTent.fbm/tent.png
+  artifactKey: Guid(2abc436b7babf974999c271f0f0c8532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/ExtraProps/ShopDetails/ShopTent.fbm/tent.png using Guid(2abc436b7babf974999c271f0f0c8532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0921fa7ad8d1491a8d52a9528d046f0') in 0.038804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.098183 seconds.
+  path: Assets/CScape/ExtraProps/ShopDetails/Materials/tentMask.psd
+  artifactKey: Guid(21acf63903b71d6469380c5cda92b8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/ExtraProps/ShopDetails/Materials/tentMask.psd using Guid(21acf63903b71d6469380c5cda92b8c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23657c345dd6785851d3a1dac89920b8') in 0.030999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/CScape/ExtraProps/ShopDetails/ShopTent.fbm/tentMask.psd
+  artifactKey: Guid(29275026f0fc0c54c82e6789c5c08371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/ExtraProps/ShopDetails/ShopTent.fbm/tentMask.psd using Guid(29275026f0fc0c54c82e6789c5c08371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdcb80de690d429ec5cb2461112f632a') in 0.035477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.343105 seconds.
+  path: Assets/CScape/ExtraProps/ShopDetails/ShopTent.fbm/tentMaskSubSurface.png
+  artifactKey: Guid(308d81826dbd02e4baec08c4a4b2f44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/ExtraProps/ShopDetails/ShopTent.fbm/tentMaskSubSurface.png using Guid(308d81826dbd02e4baec08c4a4b2f44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de28ea211af21476e7f42b26c38400e') in 0.040069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/CScape/NordLake Lite/Untitled_Albedo.png
+  artifactKey: Guid(abd4b6a5e7067a1458225b1c97cd7a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/NordLake Lite/Untitled_Albedo.png using Guid(abd4b6a5e7067a1458225b1c97cd7a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5c39fb1deb7c70535cfa99d4153d11') in 0.045228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/CScape/NordLake Lite/Untitled_Normal.png
+  artifactKey: Guid(4ad89619486567e40a52c528a6d5a120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/NordLake Lite/Untitled_Normal.png using Guid(4ad89619486567e40a52c528a6d5a120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8cba56d14a18eb371adbdfca456feb') in 0.036979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/CScape/NordLake Lite/Untitled_Gloss.png
+  artifactKey: Guid(2739f4522fce87749bfc728ff59345f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/NordLake Lite/Untitled_Gloss.png using Guid(2739f4522fce87749bfc728ff59345f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624bbe66e3b506f85e3c7a2e2a4a8921') in 0.033238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037262 seconds.
+  path: Assets/CScape/NordLake Lite/WaterBump.psd
+  artifactKey: Guid(db106602c484ead42924297aa3f4faef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/NordLake Lite/WaterBump.psd using Guid(db106602c484ead42924297aa3f4faef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcffac1170aba01864d5df6229dfc5e') in 0.036596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/window.psd
+  artifactKey: Guid(21cdb8f38c1dd4447bc8cb3593a2760a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/window.psd using Guid(21cdb8f38c1dd4447bc8cb3593a2760a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb075eef3ddc3cf874e331f289b77ed') in 0.036822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.170780 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/window.png
+  artifactKey: Guid(34916f1b310399849884db8197a1353e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/window.png using Guid(34916f1b310399849884db8197a1353e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d58d62e57dec2c82aeafde6391eb11') in 0.049251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/Window3.png
+  artifactKey: Guid(c6eb14de88e20ee428dc0721bf26c58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/Window3.png using Guid(c6eb14de88e20ee428dc0721bf26c58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce2b06e4712ffd32be6ca98051af7ce') in 0.050082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/Window2.png
+  artifactKey: Guid(5d8d25cbb93aca7489cc24d85f3a0360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/Window2.png using Guid(5d8d25cbb93aca7489cc24d85f3a0360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d5c49cd2d91c05b57844a418c6a341') in 0.037171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/window2.psd
+  artifactKey: Guid(dafda5d4955168f46b187aaf91ae883b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/window2.psd using Guid(dafda5d4955168f46b187aaf91ae883b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a7b9f3bbcabbaeb57cf545125e1b76') in 0.034755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.212852 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/Window4.png
+  artifactKey: Guid(e2a373a81f1484048aaded1ffdfd360e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/Window4.png using Guid(e2a373a81f1484048aaded1ffdfd360e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1bb844d2b8652ac6db431c322880b63') in 0.046181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000563 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/Windows.png
+  artifactKey: Guid(3ff5e5ee87933b748be807ec47d9d432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/Windows.png using Guid(3ff5e5ee87933b748be807ec47d9d432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64341a7c1888d2e382dc1e5ede73ddd0') in 0.054112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/windowX.png
+  artifactKey: Guid(10e468fe445206f4baec211be9aca226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/windowX.png using Guid(10e468fe445206f4baec211be9aca226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6b9ed81d0deef17a5efcf0dc8e682c') in 0.045968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/WindowUp.psd
+  artifactKey: Guid(174743f43e760164083732b713979e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/WindowUp.psd using Guid(174743f43e760164083732b713979e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c3c0343fd70f104f837aaa24c0bc16') in 0.037759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/WindowsCover.psd
+  artifactKey: Guid(475204b243d73034fb3acb98bcaf74c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/WindowsCover.psd using Guid(475204b243d73034fb3acb98bcaf74c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70df4ef8217138530c8c5dddb8ac06d') in 0.060247 seconds 
+========================================================================
+Received Prepare
+Unknown platform 3 in GetRenderList
+Unknown platform 3 in GetRenderList
+Refreshing native plugins compatible for Editor in 12.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.1 MB.
+System memory in use after: 75.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2169.
+Total: 9.909300 ms (FindLiveObjects: 0.456300 ms CreateObjectMapping: 0.106600 ms MarkObjects: 9.312400 ms  DeleteObjects: 0.030900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 463.472758 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/AirConditioner.png
+  artifactKey: Guid(8997f1a1838199c4e96ee8ab8b34272b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/AirConditioner.png using Guid(8997f1a1838199c4e96ee8ab8b34272b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922608eb46169f62fc18a3b5d5ece5c4') in 0.034164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/Border.png
+  artifactKey: Guid(32690114d7e40e341aeac5d76fd1ceb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/Border.png using Guid(32690114d7e40e341aeac5d76fd1ceb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430c43e04552b81b972286d067ce8f9c') in 0.041779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/blind.png
+  artifactKey: Guid(1a1c70ecda13a6f41a399621c5d13946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/blind.png using Guid(1a1c70ecda13a6f41a399621c5d13946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ef23095bad42837cd5c31d490bede3') in 0.034150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/Column.png
+  artifactKey: Guid(ca0f8abb9918b724d8d6ec787db49f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/Column.png using Guid(ca0f8abb9918b724d8d6ec787db49f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1f5a36a90655c178d4d41c3c7f80fe') in 0.034832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/Column 1.png
+  artifactKey: Guid(868fabc8484675d49b82a6e4149a0c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/Column 1.png using Guid(868fabc8484675d49b82a6e4149a0c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d790fb9bfbd964d53ee6716afd1542') in 0.050450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/Border3.png
+  artifactKey: Guid(a26de2abeae68e841af20bb3b4ab787f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/Border3.png using Guid(a26de2abeae68e841af20bb3b4ab787f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da25a5e768c99992c44937b43abb660f') in 0.046628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/Column3.png
+  artifactKey: Guid(cab2226157376e14b9d122bdd8965d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/Column3.png using Guid(cab2226157376e14b9d122bdd8965d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64cd92ba857406557f659267d0820834') in 0.064208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/Border4.png
+  artifactKey: Guid(a52bf10a1a5ac224f8879d4e85a0f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/Border4.png using Guid(a52bf10a1a5ac224f8879d4e85a0f304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8904afe7c01a23231dae1b750ccca7') in 0.071967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000729 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/Door.png
+  artifactKey: Guid(9ec612e322eef3640a571e2549605d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/Door.png using Guid(9ec612e322eef3640a571e2549605d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d84fe29a075f14e61156d1aa80b9f6') in 0.066573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/CScape/CScapeToolset/Textures/Border2.png
+  artifactKey: Guid(6e448512132e1ef45a72543d4e82cb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/CScapeToolset/Textures/Border2.png using Guid(6e448512132e1ef45a72543d4e82cb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2983b6f2fb7bc726b16ca5005207e2') in 0.067472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 235.143138 seconds.
+  path: Assets/Standard Assets/PhysicsMaterials/ZeroFriction.physicMaterial
+  artifactKey: Guid(c2815a7ab32e42c4bb42f59caacb8ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/PhysicsMaterials/ZeroFriction.physicMaterial using Guid(c2815a7ab32e42c4bb42f59caacb8ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe4c84a5153d5e5896b44c224dd6011') in 0.016645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.145557 seconds.
+  path: Assets/CScape/Models/ADVPanels2.FBX
+  artifactKey: Guid(93d0c1fe0ea50d34b81db5076358475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/ADVPanels2.FBX using Guid(93d0c1fe0ea50d34b81db5076358475e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322c22814e1314b169424bf2b738ed7d') in 0.181994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/CScape/Models/balcony.FBX
+  artifactKey: Guid(48d0404a7f850704d8dbc329fed9fd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/balcony.FBX using Guid(48d0404a7f850704d8dbc329fed9fd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0129586604db3c3bef49e8f9abfd3350') in 0.087872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/CScape/Editor/Resources/BuildingTemplates/AdvPanels/ADVPanels.FBX
+  artifactKey: Guid(c7781dc50e26de043a6f152ce3b1d47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Resources/BuildingTemplates/AdvPanels/ADVPanels.FBX using Guid(c7781dc50e26de043a6f152ce3b1d47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc51e645786e5e506232e2ab208d621') in 0.062616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 318.831361 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Billboards.tga
+  artifactKey: Guid(612b65e0cd1576e4bbba0516d756a99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Billboards.tga using Guid(612b65e0cd1576e4bbba0516d756a99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a093523aebc7c5db15b71001dd20e602') in 0.032392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 515.053063 seconds.
+  path: Assets/CScape/Editor/Textures/AdvertisingPanels.psd
+  artifactKey: Guid(a7123216441ce0b4b99a13c3d6e1a4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/AdvertisingPanels.psd using Guid(a7123216441ce0b4b99a13c3d6e1a4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2264f4c9bc5d6244a18c5a5f31accf8b') in 0.021320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/CScape/Editor/Textures/BuildingNoise3.png
+  artifactKey: Guid(5b4076806f062e047a338eb29f9116f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/BuildingNoise3.png using Guid(5b4076806f062e047a338eb29f9116f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2b7e1ed262ab53ac1ce9c6ba65038e') in 0.025743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/CScape/Editor/Textures/CScape.psd
+  artifactKey: Guid(62be6d6e4f820a44494e529f6010e159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/CScape.psd using Guid(62be6d6e4f820a44494e529f6010e159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39359807baf6bc54d735c55cdb690599') in 0.029234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/CScape/Editor/Textures/BuildingNoise1.png
+  artifactKey: Guid(246a3b178ac258640b162c8037a06d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/BuildingNoise1.png using Guid(246a3b178ac258640b162c8037a06d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242d993a052004caf0c81b894a9c44e2') in 0.026963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/CScape/Editor/Textures/Checkers.png
+  artifactKey: Guid(84508b93f15f2b64386ec07486afc7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/Checkers.png using Guid(84508b93f15f2b64386ec07486afc7a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c582989f6d8293092b9550479fd45c9') in 0.021799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/CScape/Editor/Textures/BuildingNoise4.png
+  artifactKey: Guid(ca759726081033643bfb71d39a0f4c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/BuildingNoise4.png using Guid(ca759726081033643bfb71d39a0f4c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a62daf4f9c772a04cbbd9dc37f681b') in 0.031405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/CScape/Editor/Textures/ConcreteBare0280_39_S.jpg
+  artifactKey: Guid(06ee7dcc352ce4e9585448d8b982852d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/ConcreteBare0280_39_S.jpg using Guid(06ee7dcc352ce4e9585448d8b982852d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8bad01f200b428569a5763f16597f77') in 0.024445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/CScape/Editor/Textures/dissolve-guide 1.png
+  artifactKey: Guid(0c333ccebd4f2004b803f004363b35c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/dissolve-guide 1.png using Guid(0c333ccebd4f2004b803f004363b35c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2029ac729242ef4ad601c4259e52f767') in 0.030399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/CScape/Editor/Textures/Dirt.psd
+  artifactKey: Guid(80542eaae24ca2748899f946de281130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/Dirt.psd using Guid(80542eaae24ca2748899f946de281130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017f863353265ef9575612054808cdc8') in 0.024253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/CScape/Editor/Textures/BuildingNoise2.png
+  artifactKey: Guid(59c3dca4129c07e47837b2739c3c076a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/BuildingNoise2.png using Guid(59c3dca4129c07e47837b2739c3c076a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9928e0c2e28596c358fb4b3a00cbbed1') in 0.027156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.397982 seconds.
+  path: Assets/CScape/Editor/Textures/ParkTextures
+  artifactKey: Guid(346fbd530b55c0a4ca6eaf89d7859366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/ParkTextures using Guid(346fbd530b55c0a4ca6eaf89d7859366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3d6ef22516947383b6adc405a0ce5a') in 0.012752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.085934 seconds.
+  path: Assets/CScape/Editor/Textures/StreetTextures
+  artifactKey: Guid(9062faaeea9010c469c8db8425a16b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/StreetTextures using Guid(9062faaeea9010c469c8db8425a16b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596a98b340ac6065d0564425a5a2f80c') in 0.020106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.138301 seconds.
+  path: Assets/CScape/Editor/Textures/StreetTextures/asphalt1.png
+  artifactKey: Guid(6f2663be96abdbf40bd995f7b189a8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/StreetTextures/asphalt1.png using Guid(6f2663be96abdbf40bd995f7b189a8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1be30f9caea4c6ab48c7cbbb155c9bc2') in 0.022605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/CScape/Editor/Textures/StreetTextures/asphalt1Spec.png
+  artifactKey: Guid(27efb27b4d63cc547b0ae64b34339f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/StreetTextures/asphalt1Spec.png using Guid(27efb27b4d63cc547b0ae64b34339f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51636019c8138c81548b7de317e8e2a4') in 0.029944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/CScape/Editor/Textures/StreetTextures/asphalt2.png
+  artifactKey: Guid(8ec80db84d0480045abd3ef9031d4939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/StreetTextures/asphalt2.png using Guid(8ec80db84d0480045abd3ef9031d4939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690344281b3a5c9b7287b3cd870f17a8') in 0.029097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.125793 seconds.
+  path: Assets/CScape/Editor/Textures/StreetTextures/Materials
+  artifactKey: Guid(7d48b9ff5d8338543a9b897b15e6c945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/StreetTextures/Materials using Guid(7d48b9ff5d8338543a9b897b15e6c945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbaa89e7808e980f3c401be085bbb6b8') in 0.021068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.049811 seconds.
+  path: Assets/CScape/Editor/Textures/StreetTextures/Materials/asphalt1.mat
+  artifactKey: Guid(c0599734f083bca40bbf5060e8d60a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/StreetTextures/Materials/asphalt1.mat using Guid(c0599734f083bca40bbf5060e8d60a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1a688f1fea765592894b5fe80a5fe7') in 0.029764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/CScape/Editor/Textures/StreetTextures/Materials/asphalt1Spec.mat
+  artifactKey: Guid(3f346e82300532d4b802b0b3d6a7f9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/StreetTextures/Materials/asphalt1Spec.mat using Guid(3f346e82300532d4b802b0b3d6a7f9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbeac160ea2c4a0d446425b8512caed8') in 0.023616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/CScape/Editor/Textures/StreetTextures/Materials/asphalt2.mat
+  artifactKey: Guid(fc4d1142b1d2ae94cabd640c8e3e334d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Editor/Textures/StreetTextures/Materials/asphalt2.mat using Guid(fc4d1142b1d2ae94cabd640c8e3e334d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e9abd6af412a3350d24813a03f127e') in 0.024997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.726685 seconds.
+  path: Assets/CScape/Models/Materials/09 - Default.mat
+  artifactKey: Guid(19bc80b5c595cde40854b4ba9553df16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/09 - Default.mat using Guid(19bc80b5c595cde40854b4ba9553df16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f9092d97c8529d4068e370e812a451') in 0.024014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/CScape/Models/Materials/_BaseMaterial_Albedo.mat
+  artifactKey: Guid(5a569a6280cc89948876bd3b165f6df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/_BaseMaterial_Albedo.mat using Guid(5a569a6280cc89948876bd3b165f6df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67bc9ea3860d16528f1bd3a32d10c9b4') in 0.020632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/CScape/Models/Materials/16730377_10211679993459341_1668790371903293102_n.mat
+  artifactKey: Guid(d8abf7412f603fd479fd13a5620a9a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/16730377_10211679993459341_1668790371903293102_n.mat using Guid(d8abf7412f603fd479fd13a5620a9a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faeefd18790cc87169fa7a286936b2e6') in 0.030499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/CScape/Models/Materials/Anten1.mat
+  artifactKey: Guid(b0ab3631610e82f47a990138fad94bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/Anten1.mat using Guid(b0ab3631610e82f47a990138fad94bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607efacdc73762c91297ddc99f34db10') in 0.040060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/CScape/Models/Materials/FrontColor.mat
+  artifactKey: Guid(840b2b59f5606cf44a94bd58f1b30693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/FrontColor.mat using Guid(840b2b59f5606cf44a94bd58f1b30693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf909cebb436ff802cbf581271095aa') in 0.031731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/CScape/Models/Materials/RooftopsNew.mat
+  artifactKey: Guid(a79ff04ad5ab47a44aa8f300d54d70d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/RooftopsNew.mat using Guid(a79ff04ad5ab47a44aa8f300d54d70d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f058231e534a4a8d0066e991416a38a9') in 0.491865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/CScape/Models/Materials/_1.mat
+  artifactKey: Guid(7c735afc65e19a7418bc14cd7f1dfca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/_1.mat using Guid(7c735afc65e19a7418bc14cd7f1dfca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a8a35fd55c764751436679bb6818ca') in 0.025250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/CScape/Models/Materials/AdvertisingPanels.mat
+  artifactKey: Guid(d782b24c680151240a4fd4c6bf03cf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/AdvertisingPanels.mat using Guid(d782b24c680151240a4fd4c6bf03cf4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd91e3d46faae2c19de569ec13e3bfd') in 0.030111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.624003 seconds.
+  path: Assets/CScape/Models/Materials/Materials
+  artifactKey: Guid(0107799deabfdc24fad64ee839403ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Materials/Materials using Guid(0107799deabfdc24fad64ee839403ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe9d4d6cdec4449f4fc8d55291a6e5d') in 0.004957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.507713 seconds.
+  path: Assets/CScape/Models/anten1.FBX
+  artifactKey: Guid(1b81709a2fdb187468f3947eb3e39f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/anten1.FBX using Guid(1b81709a2fdb187468f3947eb3e39f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33e318f8a8a3f8bbfbd7fde5c4515be9') in 0.031409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/CScape/Models/pb_Mesh76676.asset
+  artifactKey: Guid(72012b14cb1345a4d86bf3582a811360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/pb_Mesh76676.asset using Guid(72012b14cb1345a4d86bf3582a811360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee988a585d32e52b79e349e3d8d9ece2') in 0.024488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/CScape/Models/CSTemplate6.FBX
+  artifactKey: Guid(c85189fae596dd944acb857b987ab59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/CSTemplate6.FBX using Guid(c85189fae596dd944acb857b987ab59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c7e49272d9ec5398bf42b5cba24d3a') in 0.037066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/CScape/Models/buildingSeries3.FBX
+  artifactKey: Guid(007d6669a05072c4ebff4752a57cc726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/buildingSeries3.FBX using Guid(007d6669a05072c4ebff4752a57cc726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8add74444fec28ffd87b6ea1fca327ce') in 0.044772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/CScape/Models/River.FBX
+  artifactKey: Guid(c787fe469c37c2948a9fa9ef94c0f3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/River.FBX using Guid(c787fe469c37c2948a9fa9ef94c0f3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122004c51ec4e35665c8ab893b73dfc4') in 0.044388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/CScape/Models/pb_Mesh-5993064.asset
+  artifactKey: Guid(23f5111a23cc7264ea20a1a355bded7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/pb_Mesh-5993064.asset using Guid(23f5111a23cc7264ea20a1a355bded7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac3663a5a0217446b0024747f401dc0') in 0.026178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/CScape/Models/CSHouse3.FBX
+  artifactKey: Guid(93688c200e6b4bb4a954c1a466323f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/CSHouse3.FBX using Guid(93688c200e6b4bb4a954c1a466323f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e6ea2ccdc25b6e1b0056eb4b7a9e5c') in 0.017618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/CScape/Models/greeble.FBX
+  artifactKey: Guid(eca5792af6eae984fa037804df652422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/greeble.FBX using Guid(eca5792af6eae984fa037804df652422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96da8650a3b58396fad19fc4b510613') in 0.239918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/CScape/Models/CSTemplate9.FBX
+  artifactKey: Guid(b1f9bad876df8164491388985b562754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/CSTemplate9.FBX using Guid(b1f9bad876df8164491388985b562754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a08d8b9535d8721b6c798035ecbac50') in 0.029059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/CScape/Models/SciFi1.FBX
+  artifactKey: Guid(23d8c9d52fe18df4d8cbd8b106662a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/SciFi1.FBX using Guid(23d8c9d52fe18df4d8cbd8b106662a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0375bddcfb48a80115c2b2d17c3405aa') in 0.034433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/CScape/Models/Lamp.FBX
+  artifactKey: Guid(4439b287313a700458ab812301318046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Lamp.FBX using Guid(4439b287313a700458ab812301318046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2a3b65694e8a9bf7f578ef362a9085') in 0.046443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/CScape/Models/CScapeTemplate1.asset
+  artifactKey: Guid(871a52ddefebfe646a47ccffbe3320cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/CScapeTemplate1.asset using Guid(871a52ddefebfe646a47ccffbe3320cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a0cb8cf33ccc6d092be43479372722') in 0.040728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/CScape/Models/CSTemplate13.FBX
+  artifactKey: Guid(c65eb3520f813d842bc1e52f92cf7d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/CSTemplate13.FBX using Guid(c65eb3520f813d842bc1e52f92cf7d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d12c121bec3e717e597f7f8bd78492') in 0.031496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/CScape/Models/CSTemplate14.FBX
+  artifactKey: Guid(bb6f7829945dad342b6089aaa7e382f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/CSTemplate14.FBX using Guid(bb6f7829945dad342b6089aaa7e382f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab87f0676987f7e8357f9ed1e95da68f') in 0.034586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/CScape/Models/street2.FBX
+  artifactKey: Guid(d608e2df3957ee046a813794b322f404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/street2.FBX using Guid(d608e2df3957ee046a813794b322f404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8a1184abed7384832ae9a7bbc7bf47') in 0.035974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/CScape/Models/rotationTestBuilding.FBX
+  artifactKey: Guid(5bffcb93e41aa9842a38426f696f0bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/rotationTestBuilding.FBX using Guid(5bffcb93e41aa9842a38426f696f0bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f612e1e29d178d1baf17a0a1ad599f') in 0.069538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/CScape/Models/CSTemplate5.FBX
+  artifactKey: Guid(ae7f6b6cce0997c4f80f9664482dddb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/CSTemplate5.FBX using Guid(ae7f6b6cce0997c4f80f9664482dddb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883ba95ea4759b045bcaeccbd544719c') in 0.034779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/CScape/Models/CSHouse1.FBX
+  artifactKey: Guid(bcf01bda52bd2134c9d98587188e4a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/CSHouse1.FBX using Guid(bcf01bda52bd2134c9d98587188e4a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06db7b5720b446a416714e72b6dac456') in 0.044786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/CScape/Models/CSTemplate11.FBX
+  artifactKey: Guid(a622212f192e38445b86a929e75a13fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/CSTemplate11.FBX using Guid(a622212f192e38445b86a929e75a13fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e8b3f71ac136a2a525195d82960412') in 0.043509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/CScape/Models/pb_Mesh1110326.asset
+  artifactKey: Guid(9316460ff156ad449910205a8ac658c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/pb_Mesh1110326.asset using Guid(9316460ff156ad449910205a8ac658c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952705b36a4d39a42ae722b8a0f5229f') in 0.046794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/CScape/Models/streetCross.FBX
+  artifactKey: Guid(538cb06d3ed10b94bb780e6840ebed6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/streetCross.FBX using Guid(538cb06d3ed10b94bb780e6840ebed6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a79e5b6d00348aeae0a0de5261095a') in 0.043264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/CScape/Models/Streets.FBX
+  artifactKey: Guid(cf00213f5b169874db5382f83b08784c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Streets.FBX using Guid(cf00213f5b169874db5382f83b08784c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8e93c0f297bdb743265501d9df2001') in 0.080361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/CScape/Models/CSTemplate12.prefab
+  artifactKey: Guid(7111a4d9ea4d5d441947c8d220c0a225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/CSTemplate12.prefab using Guid(7111a4d9ea4d5d441947c8d220c0a225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ae9f5ca1627114b08347d7494c5934') in 0.019048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/CScape/Models/Building4.fbx
+  artifactKey: Guid(4cee7f4d4ef4c934a937b6ffcdb79974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Building4.fbx using Guid(4cee7f4d4ef4c934a937b6ffcdb79974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71850387a12cfde7cb9bdf3304755639') in 0.040973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/CScape/Models/CSTemplate3.FBX
+  artifactKey: Guid(9a40a369b08359d48b7256b253d2a02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/CSTemplate3.FBX using Guid(9a40a369b08359d48b7256b253d2a02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096565e77571d55a4af85414383c31f7') in 0.041080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/CScape/Models/Riverbk.FBX
+  artifactKey: Guid(729976970228ef94c8c0e00032c8a81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Riverbk.FBX using Guid(729976970228ef94c8c0e00032c8a81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1446c4ddf01fe55e1d24c0438f81b6a2') in 0.044209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/CScape/Models/CScapeLogo.FBX
+  artifactKey: Guid(a3877b78b480d63469c41d02d0356b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/CScapeLogo.FBX using Guid(a3877b78b480d63469c41d02d0356b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '601f91b39cc82a17ac8ef3bb99387dff') in 0.044602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/CScape/Models/CSTemplate12.FBX
+  artifactKey: Guid(c6151da4eb9b71f4e9f1f214df641c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/CSTemplate12.FBX using Guid(c6151da4eb9b71f4e9f1f214df641c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63be96dd69e7912f801116eee7d2d93f') in 0.043071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/CScape/Models/pb_Mesh-6138734.asset
+  artifactKey: Guid(9c59f249b00436f4cb8776e26d4fa6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/pb_Mesh-6138734.asset using Guid(9c59f249b00436f4cb8776e26d4fa6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57b010727a3a6cc09c7fe3adca67fb0') in 0.025261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/CScape/Models/StairsArraysBalcony.FBX
+  artifactKey: Guid(7a4ac3b8d6398d843a3d09bdb4b4fdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/StairsArraysBalcony.FBX using Guid(7a4ac3b8d6398d843a3d09bdb4b4fdd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffaa59c487f908b1c0d7aa674ee8779') in 0.037974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/CScape/Models/CSTemplate15.FBX
+  artifactKey: Guid(54140a07909cb22409b15f4b60a372a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/CSTemplate15.FBX using Guid(54140a07909cb22409b15f4b60a372a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7ea2d4aeac741b3ba93025604f4e7d') in 0.049491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/CScape/Models/Building1.fbx
+  artifactKey: Guid(c8362e1a0931ba44b848176dee365336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Building1.fbx using Guid(c8362e1a0931ba44b848176dee365336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7cf531a269cab0a2deb3a7fb512cf9') in 0.053367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/CScape/Models/XBalcony.FBX
+  artifactKey: Guid(58bd2857dc3beb74aa8c65b0138778d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/XBalcony.FBX using Guid(58bd2857dc3beb74aa8c65b0138778d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d25e0a46d8bf513a846d4ec63e8029') in 0.045592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/CScape/Models/RoundedStreetSection.FBX
+  artifactKey: Guid(4b92200ab28d17a49aed155eea2b35ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/RoundedStreetSection.FBX using Guid(4b92200ab28d17a49aed155eea2b35ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6572cc3b5a3135d2425d4f224169e1e6') in 0.045690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/CScape/Models/CSTemplate7.FBX
+  artifactKey: Guid(0aa1a1a8fb14af046bad968d11308d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/CSTemplate7.FBX using Guid(0aa1a1a8fb14af046bad968d11308d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98905219d974a1529c08825b12129f0') in 0.030105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/CScape/Models/CSTemplate10Smallest.FBX
+  artifactKey: Guid(904b007772674ad46a58960550af830a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/CSTemplate10Smallest.FBX using Guid(904b007772674ad46a58960550af830a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630907e95298e0b69d96b6ce92f67fd7') in 0.044843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/CScape/Models/parkSmall.FBX
+  artifactKey: Guid(e6d9eee77244d8d4d86f9468e9c5a6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/parkSmall.FBX using Guid(e6d9eee77244d8d4d86f9468e9c5a6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f894cc570bb6e0b3704e2eb292a25e') in 0.054471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/CScape/Models/Building3.fbx
+  artifactKey: Guid(308da77715852c249bb3a5dc8379b57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Building3.fbx using Guid(308da77715852c249bb3a5dc8379b57f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ade2f1bdb99105b2411b5640cea0ef') in 0.061624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/CScape/Models/CSTemplate16.FBX
+  artifactKey: Guid(dcfa930bbb553c64f994ebc2b7948a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/CSTemplate16.FBX using Guid(dcfa930bbb553c64f994ebc2b7948a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b875dc7f5be8dc1cb110570e096776') in 0.030686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/CScape/Models/CSHouse2.FBX
+  artifactKey: Guid(50d7171ea53f63846b16849a7fee0a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/CSHouse2.FBX using Guid(50d7171ea53f63846b16849a7fee0a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cdd1e8b2553138cf49628b2004c3006') in 0.038559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/CScape/Models/New LightmapParameters.giparams
+  artifactKey: Guid(e98491411dade0b48b22cc3ea40caca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/New LightmapParameters.giparams using Guid(e98491411dade0b48b22cc3ea40caca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d44ae135272e627a92969408a7576e') in 0.017150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/CScape/Models/Building2.fbx
+  artifactKey: Guid(f4716e2cd89c1d94a8f36796d4cdcffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/Building2.fbx using Guid(f4716e2cd89c1d94a8f36796d4cdcffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a46ecad4eef6afe8576c4d5599e2d1') in 0.041703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/CScape/Models/buildingSeries3_2.FBX
+  artifactKey: Guid(20d2800c5f4230d478d1f886daabc77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/buildingSeries3_2.FBX using Guid(20d2800c5f4230d478d1f886daabc77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286a47b9fe1b967051374a2142a6f579') in 0.045391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/CScape/Models/CSTemplate8.FBX
+  artifactKey: Guid(55e2966888753614aac84f33aaf7b2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/CSTemplate8.FBX using Guid(55e2966888753614aac84f33aaf7b2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23010f103ec7ec6b82bb26a143281a34') in 0.059248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/CScape/Models/CSTemplate10.FBX
+  artifactKey: Guid(ea0558981661e6744a8856e6d6b9be8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/CSTemplate10.FBX using Guid(ea0558981661e6744a8856e6d6b9be8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd417f444077f086c7c29ffae64e7eae3') in 0.061705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/CScape/Models/RooftopsNew.FBX
+  artifactKey: Guid(b7454cea8699c934ab4c9f89114bad85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/RooftopsNew.FBX using Guid(b7454cea8699c934ab4c9f89114bad85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b9746417e8a46fab40a1e11ad8bd47') in 1.239075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/CScape/Models/CSTemplate17.FBX
+  artifactKey: Guid(c475bcea4788bf2489dc4c9e6fd872ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/CSTemplate17.FBX using Guid(c475bcea4788bf2489dc4c9e6fd872ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7511c2de81dc29e6134196c6aaf03697') in 0.033749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/CScape/Models/CSTemplate4.FBX
+  artifactKey: Guid(f9437641e8feced48a458a8b5a89c907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Models/CSTemplate4.FBX using Guid(f9437641e8feced48a458a8b5a89c907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5e27433d00a4f4f370d105450fb113') in 0.028369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 396.873683 seconds.
+  path: Assets/CScape/PostProcessingSetups/CScapeCalibrated 1.asset
+  artifactKey: Guid(1433c2f1f5202104e907449043893209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/PostProcessingSetups/CScapeCalibrated 1.asset using Guid(1433c2f1f5202104e907449043893209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06bd61e0e9619f1fcbc02fb873c3c83') in 0.014920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/CScape/PostProcessingSetups/CScapeCalibratedNightFilm.asset
+  artifactKey: Guid(2b84dce15ddb6a64d9594964015f1f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/PostProcessingSetups/CScapeCalibratedNightFilm.asset using Guid(2b84dce15ddb6a64d9594964015f1f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f8b3dd7ad81d6173aa3017009b17df3') in 0.012571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/CScape/PostProcessingSetups/CScapeCalibrated.asset
+  artifactKey: Guid(614dec8b2bd4493498a2b13b56f6f0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/PostProcessingSetups/CScapeCalibrated.asset using Guid(614dec8b2bd4493498a2b13b56f6f0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868e2fa60114d50245e67ef4bbe0e36b') in 0.013108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.370201 seconds.
+  path: Assets/CScape/Shaders/BlurHiQ 1.mat
+  artifactKey: Guid(1d59a53a416b1c34388af3bc87629b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Shaders/BlurHiQ 1.mat using Guid(1d59a53a416b1c34388af3bc87629b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b0dc4e8b94228c12e89d1872216409') in 0.049674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/CScape/Shaders/BlurHiQ.mat
+  artifactKey: Guid(c8cf88782d0a00d43abb2017c011ece9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Shaders/BlurHiQ.mat using Guid(c8cf88782d0a00d43abb2017c011ece9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1b336897c80e08387cc6f7ed1c2c16') in 0.022152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/CScape/Shaders/VolumeTexture.mat
+  artifactKey: Guid(905cf50411ec91343bbec572c2495214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Shaders/VolumeTexture.mat using Guid(905cf50411ec91343bbec572c2495214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0f4eabfe5a7eeda1ee999c32ceda45') in 0.027506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/CScape/Shaders/ScapeSky.mat
+  artifactKey: Guid(1e0979198e654ad488f618a39218c629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Shaders/ScapeSky.mat using Guid(1e0979198e654ad488f618a39218c629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b284e376d4aaa591c69c5846b54aff36') in 0.056894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.434520 seconds.
+  path: Assets/CScape/Test/ASETemplateShaders_Unlit.mat
+  artifactKey: Guid(b28b0ffa3167caf42bebf9f02583df66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Test/ASETemplateShaders_Unlit.mat using Guid(b28b0ffa3167caf42bebf9f02583df66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccfba5f38fa0dc5d0ad5ba81c8d0118') in 0.030356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/CScape/Test/CompressColors.mat
+  artifactKey: Guid(22359d3a51df54642b854373d6bf6b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Test/CompressColors.mat using Guid(22359d3a51df54642b854373d6bf6b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292bc4a2f3febdfa0da92435332c12fe') in 0.048623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/CScape/Test/sky.prefab
+  artifactKey: Guid(2521af478a581bb4b9d81ba6c40fb895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Test/sky.prefab using Guid(2521af478a581bb4b9d81ba6c40fb895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8d0dc9bfca42a6b813ea65ada57947') in 0.028421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/CScape/Test/Pixelate.mat
+  artifactKey: Guid(4eec4b60b449df34a83668df786e2b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScape/Test/Pixelate.mat using Guid(4eec4b60b449df34a83668df786e2b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef6eaf7b77defe48289de8ca1812b86') in 0.037416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.052572 seconds.
+  path: Assets/CScapeCustomBuildings/Building28.asset
+  artifactKey: Guid(fd11054e0884ded41807709544fa96bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CScapeCustomBuildings/Building28.asset using Guid(fd11054e0884ded41807709544fa96bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48ef98187931982d4e28c8300dd6692') in 0.019793 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

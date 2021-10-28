@@ -359,7 +359,7 @@ Material:
     - _DepthScale: 0.078
     - _DetailNormalMapScale: 1
     - _DiffuseLightness: 0.44
-    - _DirtAmount: 5
+    - _DirtAmount: 2.13
     - _DirtScale: 0.017
     - _DistanceBlurInteriour: 0.01
     - _DistanceSmoothness: 8.71
@@ -413,14 +413,14 @@ Material:
     - _Keyword0: 1
     - _Light: 0
     - _LightOnThershold: 0.04
-    - _LightStrenght: 3.3
-    - _LightVariation: 0.924
+    - _LightStrenght: 90
+    - _LightVariation: 0
     - _LightsOn: 0.184
     - _Lightsheight: 0
     - _MaskClipValue: 0.5
     - _MaxSnow: 0.566
     - _Metallic: 0.35
-    - _Mettalic: 1
+    - _Mettalic: 0.184
     - _Min: 0
     - _MinI: 0
     - _MinInte: 0
@@ -433,11 +433,11 @@ Material:
     - _MinS: 0
     - _MinSmoothness: 0
     - _MinSnow: 0.083
-    - _MinSpecular: 0.009
+    - _MinSpecular: 1
     - _Mode: 0
     - _NormalReflectionStrenght: 0.12
     - _NormalWindow: 0.99
-    - _Occlusion: 1
+    - _Occlusion: 4
     - _OcclusionStrength: 1
     - _Parallax: 0.0346
     - _ParallaxIterations: 0
@@ -451,7 +451,7 @@ Material:
     - _ScaleTex1: 2.66
     - _SelfIllumination: 2
     - _ShopDensity: 1
-    - _ShopSignsLight: 1
+    - _ShopSignsLight: 6
     - _SmoothCurtains: 0.331
     - _Smoothness: 1
     - _SmoothnessTextureChannel: 0

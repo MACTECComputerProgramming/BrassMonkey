@@ -344,11 +344,11 @@ Material:
     - _AntifringeCoeff: 34.49
     - _AttenuateBuildingHeight: 0.06
     - _BlindsAperture: 2.3
-    - _BlindsOpen: 0
+    - _BlindsOpen: 0.24
     - _Blurr: 0
     - _Blurri: 0
     - _BuildingLighting: 8.03
-    - _BuildingLightness: 2
+    - _BuildingLightness: 1
     - _BumpScale: 2.17
     - _CSCAPE_DESKTOP: 0
     - _CSLights: 0.59
@@ -413,8 +413,8 @@ Material:
     - _Keyword0: 1
     - _Light: 0
     - _LightOnThershold: 0.04
-    - _LightStrenght: 90
-    - _LightVariation: 0
+    - _LightStrenght: 3.3
+    - _LightVariation: 0.924
     - _LightsOn: 0.184
     - _Lightsheight: 0
     - _MaskClipValue: 0.5
@@ -437,7 +437,7 @@ Material:
     - _Mode: 0
     - _NormalReflectionStrenght: 0.12
     - _NormalWindow: 0.99
-    - _Occlusion: 4
+    - _Occlusion: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.0346
     - _ParallaxIterations: 0

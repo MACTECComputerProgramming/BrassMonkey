@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: ScapeSky
   m_Shader: {fileID: 4800000, guid: 92b32295724eb014ebf62e056c8f7f40, type: 3}
   m_ShaderKeywords: _EMISSION
@@ -67,7 +68,7 @@ Material:
         m_Scale: {x: 23.1, y: 57.3}
         m_Offset: {x: 0.8, y: 0.41}
     - _Texture0:
-        m_Texture: {fileID: 2800000, guid: 9733f0d7aec8848f08cae3c95b44d3ae, type: 3}
+        m_Texture: {fileID: 2800000, guid: 499c13baaf0a16b4ea170bf3c3cbf0bd, type: 3}
         m_Scale: {x: 1, y: 1.85}
         m_Offset: {x: 0, y: 0.11}
     - _TextureSample2:
@@ -82,6 +83,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _BumpScale: 1
     - _CurvFix: 0
@@ -91,7 +93,7 @@ Material:
     - _DstBlend: 0
     - _Fadedistance: 0.0008
     - _Float0: 0.03
-    - _Float1: 0.04
+    - _Float1: -0.3
     - _Float2: 0.35
     - _Float3: 0.13
     - _Float4: 7.6
@@ -111,7 +113,7 @@ Material:
     - _TessMin: 9.5
     - _TessPhongStrength: 0.34
     - _TessValue: 4
-    - _TransAmbient: 0.883
+    - _TransAmbient: 1
     - _TransDirect: 0.709
     - _TransNormalDistortion: 0.33
     - _TransScattering: 1
@@ -124,3 +126,4 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []

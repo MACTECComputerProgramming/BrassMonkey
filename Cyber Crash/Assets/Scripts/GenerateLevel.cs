@@ -25,8 +25,7 @@ public class GenerateLevel : MonoBehaviour
     IEnumerator GenerateSection()
     {
         sectionNum = Random.Range(0, section.Length);
-        GameObject Section = section[sectionNum];
-        Instantiate(Section, new Vector3(xPos, 0, 0), Quaternion.identity);
+        Instantiate(section[sectionNum], new Vector3(xPos, 0, 0), Quaternion.identity);
 
         xPos += 100;
         

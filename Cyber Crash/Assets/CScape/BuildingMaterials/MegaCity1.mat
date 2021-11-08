@@ -356,7 +356,7 @@ Material:
     - _ColorVariationfactor1: -9
     - _CurvFix: 1
     - _Cutoff: 0.5
-    - _DepthScale: 0.11
+    - _DepthScale: 0.06
     - _DetailNormalMapScale: 1
     - _DiffuseLightness: 0.44
     - _DirtAmount: 1

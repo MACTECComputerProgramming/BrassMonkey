@@ -1085,8 +1085,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 869.61, y: -624.0225}
-  m_SizeDelta: {x: 820.78, y: 191.1152}
+  m_AnchoredPosition: {x: 999.9192, y: -613.45}
+  m_SizeDelta: {x: 560.1721, y: 213.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &910803314
 MonoBehaviour:
@@ -1326,8 +1326,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -950.6843, y: 248.37057}
-  m_SizeDelta: {x: 522.0114, y: 183.5225}
+  m_AnchoredPosition: {x: -1012.4949, y: 50.974922}
+  m_SizeDelta: {x: 534.9502, y: 157.0616}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1068421750
 Animator:
@@ -1671,7 +1671,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -996.66, y: -549}
+  m_AnchoredPosition: {x: -1012.5, y: -554.87}
   m_SizeDelta: {x: 477.127, y: 142.5914}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1374677055
@@ -2162,8 +2162,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1891037290}
   - component: {fileID: 1891037291}
-  - component: {fileID: 1891037293}
   - component: {fileID: 1891037292}
+  - component: {fileID: 1891037293}
   m_Layer: 5
   m_Name: VolumeSlider
   m_TagString: Untagged
@@ -2190,7 +2190,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1008, y: -680.74}
+  m_AnchoredPosition: {x: -994.92, y: -665}
   m_SizeDelta: {x: 499.8086, y: 77.6756}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1891037291
@@ -2215,10 +2215,10 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 0, b: 0, a: 1}
-    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_HighlightedColor: {r: 0.5529412, g: 0, b: 0, a: 1}
+    m_PressedColor: {r: 0.5529412, g: 0, b: 0, a: 1}
+    m_SelectedColor: {r: 1, g: 0, b: 0, a: 1}
+    m_DisabledColor: {r: 1, g: 0, b: 0, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -2244,7 +2244,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1891037293}
+      - m_Target: {fileID: 1891037292}
         m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
         m_MethodName: ChangeVolume
         m_Mode: 1
@@ -2256,7 +2256,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!82 &1891037292
+--- !u!114 &1891037292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891037289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64090d018a5b1a94a971db5def2cf18a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeSlider: {fileID: 1891037291}
+--- !u!82 &1891037293
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2266,7 +2279,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1555836638cd34283a3780a19b58d4c6, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2772a47e2af80044e9e6c8167ca29eac, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2352,19 +2365,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1891037293
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1891037289}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64090d018a5b1a94a971db5def2cf18a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  volumeSlider: {fileID: 1891037291}
 --- !u!1 &1928345004
 GameObject:
   m_ObjectHideFlags: 0
@@ -2405,8 +2405,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.42022705}
-  m_SizeDelta: {x: 0, y: -0.84021}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1928345006
 MonoBehaviour:
